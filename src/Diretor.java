@@ -16,6 +16,7 @@ public class Diretor {
     }
     public void mostrar(){
         System.out.println("Nome do Diretor: "+this.getNome());
-        System.out.println("Data de Nascimento: "+this.getDataNascimento());
+        System.out.print("Data de Nascimento: ");
+        this.getDataNascimento().mostrar();
     }
 }

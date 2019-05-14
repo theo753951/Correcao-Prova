@@ -21,8 +21,9 @@ public class Teste {
         f1.setDiretor(d1);
        
         d1.mostrar();
-        f1.mostrar();
+        //f1.mostrar();
         f1.informeGenero("Terror");
+        f1.mostrar();
     }
     
 }

@@ -22,8 +22,10 @@ public class Filme {
         return this.genero;
     }
     public void mostrar(){
-        System.out.println("Data de Lançamento: "+this.getDataLancamento());
-        System.out.println("Diretor de Filme: "+this.getDiretor());
+        
+        System.out.println("Diretor de Filme: "+this.getDiretor().getNome());
+        System.out.print("Data de Lançamento: ");
+        this.getDataLancamento().mostrar();
         System.out.println("Genero do Filme: "+this.getGenero());
     }
     public boolean informeGenero(String g){
